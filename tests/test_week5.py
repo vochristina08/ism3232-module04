@@ -11,9 +11,11 @@ def test_over_limit_true():
     total = 1500
     assert total > 1000
 
+
 def test_over_limit_false():
     total = 500
     assert total <= 1000
+
 
 def test_type_of_string():
     name = "ISM3232"
